@@ -1,0 +1,17 @@
+name: PistolPlugin
+version: '${project.version}'
+main: org.pistolplugin.PistolPlugin
+api-version: '1.20'
+authors: [somikyy, rmw]
+description: pistolplugin
+
+commands:
+  getpistol:
+    description: Get a pistol
+    usage: /getpistol
+    permission: pistolplugin.getpistol
+
+permissions:
+    pistolplugin.getpistol:
+        description: Allows the player to get a pistol
+        default: true
